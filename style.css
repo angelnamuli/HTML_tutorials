@@ -1,0 +1,72 @@
+/* removes all padding
+*{
+	margin: 0;
+	padding: 0;
+}
+*/
+
+body{
+	background-color:#f4f4f4 ;
+	color: #555555;
+	/*same
+	font-family: Georgia,sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	*/
+	font:normal 18px Times New Roman,sans-serif; /*shortcut*/ 
+
+	line-height: 6m ;
+	margin: 0;
+
+}
+
+.container{
+	width: 80%;
+	margin: auto;
+
+}
+.Box-1{
+	background-color: #333;
+	color:#fff;
+	/*same
+	border-right: 5px red solid; 
+	border-bottom: 5px red solid; 
+	border-left: 5px red solid; 
+	border-top: 5px red solid; 
+	*/
+	border-width: 3px;
+	border-bottom-width: 20px; 
+	border-top-style: dotted;
+
+	border:5px red solid;
+	/*same guy as jhs defining padding once
+	padding-top: 20px ;
+	padding-bottom: 20px ;
+	padding-right: 20px ;
+	padding-left: 20px ;
+	*/
+
+	padding: 20px;
+
+	margin:20px 0;
+h1{
+	font-family: Tahoma;
+	font-weight: 800;
+	font-style: italic;
+	text-decoration: underline;
+	text-transform:uppercase ;
+	letter-spacing: 0.2em;
+	word-spacing: 1em;
+}
+
+.Box-2{
+	border:3px dotted #ccc;
+	
+}
+
+}
+
+
+
+	
+
